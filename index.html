@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Landing Page - SPACE</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-light navbar-fixed-top">
+<div class="container d-flex align-items-center justify-content-between">
+<img src="images/space-logo.svg" width="125px;" height="25px;" />
+
+<div class="collapse navbar-collapse" id="navbarSupportedContent">
+<ul class="navbar-nav ms-auto mb-2 mb-lg-0 me-0">
+<li class="nav-item ">
+<a class="nav-link">LIFETIME DEAL<span class="condition-star">*</span></a>
+</li>
+
+</li>
+<li class="nav-item  ms-lg-5 me-0">
+<a class="nav-link" style="padding-right: 60px">Pricing</a>
+</li>
+
+<li class="dropdown nav-item dropdown-custome">
+<a class="dropdown-toggle nav-link d-flex align-items-center" data-toggle="dropdown">
+<div>Products</div>
+
+</a>
+</li>
+<li class="nav-item  ms-lg-5 me-0">
+<a class="nav-link">Login</a>
+</li>
+</ul>
+</div>
+</div>
+</nav>
+
+<div class="main-banner">
+<div class="container text-center">
+<div class="banner-heading">
+<h1>
+World's simplest <br />
+<span>workspace</span> tools
+</h1>
+</div>
+<div class="banner-sub-heading mt-4">
+<h4>Backed with research, technology and a great UX.</h4>
+</div>
+<div class="custom-input d-flex justify-content-center align-items-center my-4">
+<form onsubmit="formSubmitHandler(event)" id="freeTrial" class="row email-form">
+<div class="col">
+<input type="text" placeholder="Enter your work email" id="email" name="email" class="form-control"/>
+</div>
+<div class="col-auto text-lg-start" style="margin-left: -10px">
+<button target="_blank" type="submit" disabled class="btn btn-dark btn-animate ms-0 home-cta-button form-submit-btn">
+Start your free trial
+</button>
+</div>
+<input type="hidden" name="source" value="home-banner" />
+</form>
+</div>
+</div>
+</div>
+
+<section class="sub-sections vision mt-0">
+<div class="container text-center">
+<h4>
+<strong>SPACE</strong> is building simple and beautiful
+<span class="yellow-patch">workspace</span> apps for next generation
+<br />
+<strong>startups</strong> and <strong>teams</strong> so they spend
+less time learning tools and more on real <strong>work.</strong>
+</h4>
+</div>
+</section>
+<section class="sub-sections products">
+<div class="container">
+<div class="all-products-cards row row-cols-1 row-cols-lg-2">
+<div class="product-card col">
+<div class="product-content">
+<div class="d-flex align-items-center">
+<img height="50" class="mb-3" src="images/Channel-logo.svg" alt="Channel-logo" />
+<h4 class="ms-3">Channel</h4>
+</div>
+<p>
+Channel will make your team conversations quick and purposeful.
+Share instant files or start a video call in a single click.<br><br>
+<button style="background-color: black; color: white;border: solid; border-radius: 7px; padding: 5px">Read More</button>
+</p>
+</div>
+</div>
+
+<div class="product-card col">
+<div class="product-content">
+<div class="d-flex align-items-center">
+<img height="50" class="mb-3" src="images/Doc-logo.svg" alt="Doc-logo" />
+<h4 class="ms-3">Doc</h4>
+</div>
+<p>
+Keep your content organised and influence your team to be
+productive. Write about the processes and contribute to the
+knowledge.<br><br>
+<button style="background-color: black; color: white;border: solid; border-radius: 7px; padding: 5px">Read More</button>
+</p>
+
+
+</div>
+</div>
+
+
+<div class="product-card col">
+<div class="product-content">
+<div class="d-flex align-items-center">
+<img height="55" class="mb-3" src="images/Email-logo.svg" alt="Email-logo" />
+<h4 class="ms-3">Email</h4>
+</div>
+<p>
+Keep your team aligned at one inbox and let them hook to a
+shared email where the entire team can read, respond to the
+conversations quickly.<br><br>
+<button style="background-color: black; color: white;border: solid; border-radius: 7px; padding: 5px">Read More</button>
+</p>
+</div>
+</div>
+
+<div class="product-card col">
+<div class="product-content">
+<div class="d-flex align-items-center">
+<img height="50" class="mb-3" src="images/Todo-logo.svg" alt="Todo-logo" />
+<h4 class="ms-3">To-Do Planner</h4>
+</div>
+<p>
+Craft your imagination and thoughts on a page and share it with
+your team. Analyse the everyday work happening and keep the
+check on the progress.<br><br>
+<button style="background-color: black; color: white;border: solid; border-radius: 7px; padding: 5px">Read More</button>
+</p>
+</div>
+</div>
+
+<div class="product-card col">
+<div class="product-content">
+<div class="d-flex align-items-center">
+<img height="55" class="mb-3" src="images/OKR-logo.svg" alt="OKR-logo" />
+<h4 class="ms-3">OKR</h4>
+</div>
+<p>
+OKR framework to achieve your goals with simple and minimal
+features to adapt positive habits. Ditch the spreadsheet and
+track your OKRs smartly.<br><br>
+<button style="background-color: black; color: white;border: solid; border-radius: 7px; padding: 5px">Read More</button>
+</p>
+</div>
+</div>
+<div class="product-card col">
+<div class="product-content">
+<div class="d-flex align-items-center">
+<img height="50" class="mb-3" src="images/Meet-logo.svg" alt="Meet-logo" />
+<h4 class="ms-3">Meet</h4>
+</div>
+<p>
+Break the monotony of sitting behind the screens, connect
+instantly- either audio calls or the video calls all at one
+place.<br><br>
+<button style="background-color: black; color: white;border: solid; border-radius: 7px; padding: 5px">Read More</button>
+</p>
+</div>
+</div>
+
+</div>
+</div>
+</section>
+<div class="text-center">
+<img class="curve-sep mb-5" src="images/curve-sep.png" />
+</div>
+<section class="sub-sections pricing text-center">
+<h2>Pricing</h2>
+<h6>We are startup for startups (A product by Walkover)</h6>
+<div class="container mt-5 custom-pricing">
+<div class="pricing-box">
+<div class="pricing-content row row-cols-1 row-cols-lg-2">
+<div class="dollar-icon col-lg-4">
+<img height="220" src="images/dollar-icon.svg" alt="dollar-sign" />
+</div>
+<div class="content-details col-lg-8">
+<div>
+<p>
+<span>FREE</span> for a team of <strong>10</strong>, always!
+</p>
+</div>
+<div class="mt-4">
+<p class="mb-0">From the 11st teammate</p>
+<p><span>50 USD</span> /month/teammate</p>
+</div>
+<div class="yellow-patch-box">
+<p class="mb-0">
+If you got <strong>15</strong> teammate, we charge only for
+the additional <strong>5</strong> <br />
+(No complication, simplicity everywhere)
+</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+</section>
+<div class="text-center">
+<img class="curve-sep mt-5 mb-4" src="images/curve-sep.png" />
+</div>
+<section class="sub-sections all-features">
+<div class="container">
+<div class="feature mt-5 pb-5 row">
+<div class="feature-image col-lg-6 order-lg-last text-center">
+<img width="70%" src="images/integrate.svg" alt="integrate" />
+</div>
+<div class="feature-details col-lg-6">
+<h2>Stand-alone but Integrated</h2>
+<p>
+SPACE suite is interconnected. Every tool is integrated with each
+other to maximise the benefits and reduce the number of clicks you
+need to make.
+</p>
+</div>
+</div>
+<div class="feature mt-5 mb-5 row">
+<div class="feature-image col-lg-6 text-center">
+<img width="60%" src="images/secure-home-page.svg" alt="secure-home-page" />
+</div>
+<div class="feature-details col-lg-6">
+<h2>Secure and Reliable</h2>
+<p>
+ISO 27001 certification. More than certification, the team works
+on futuristic technology and approaches to keep your data secure. 
+Security is our  main concern since 15 years of our team
+experience.
+</p>
+</div>
+</div>
+<div class="feature row">
+<div class="feature-image col-lg-6 order-lg-last text-center">
+<img width="60%" src="images/simple-fast.svg" alt="simple-fast" />
+</div>
+<div class="feature-details col-lg-6">
+<h2>Simple, Fast, Beautiful</h2>
+<p>
+Our every tool is built on these three pillars. Zero learning
+curve- simple enough to self understand,Super fast - saving your
+every millisecond and fun and bright- to keep it aesthetic. Our
+team makes sure you save a lot of time, navigate smoothly and
+complete your purpose of using the tool.
+</p>
+</div>
+</div>
+</div>
+</section>
+<section class="sub-sections reward">
+<div class="container mt-5 custom-reward">
+<div class="reward-box">
+<div class="reward-content row row-cols-1 row-cols-lg-2">
+<div class="content-details col-lg-8">
+<div>
+<h3>Reward your team with the right tool of collaboration</h3>
+
+</div>
+ <div class="custom-input reward-custom-input mt-4">
+<form onsubmit="formSubmitHandler(event)" id="freeTrial" class="row email-form">
+<div class="col">
+<input type="text" placeholder="Enter your work email" id="bottomEmail" name="email" class="form-control" />
+</div>
+<div class="col-auto text-lg-start" style="margin-left: -10px">
+<button target="_blank" type="submit" disabled class="btn btn-dark btn-animate home-cta-button bottom-form-submit-btn">Start your free trial</button>
+</div>
+<input type="hidden" name="source" value="home-banner" />
+</form>
+</div>
+</div>
+<div class="reward-img d-flex justify-content-center col-lg-4">
+<img height="200" src="images/reward.svg" alt="dollar-sign" />
+</div>
+</div>
+</div>
+</div>
+</section>
+<footer>
+<div class="container-fluid second_footer">
+<div class="container align-items-top">
+<div class="d-flex  footer_sec">
+<div>
+<ul class="footer-menu-heading">
+<li class="mb-4">SPACE</li>
+<li>About Us</li>
+<li>Career</li>
+<li>Product Overview</li>
+<li>Contact us</li>
+</ul>
+</div>
+<div>
+<ul class="footer-menu-heading">
+<li class="mb-4">Product </li>
+<li>Channel</li>
+<li>OKR</li>
+<li>Connect</li>
+<li>Doc (Coming Soon)</li>
+<li>OKR Coaches</li>
+
+</ul>
+</div>
+<div>
+<ul class="footer-menu-heading">
+<li class="mb-4">OKR Resources</li>
+<li>Community</li>
+<li>Webinars</li>
+<li>B2B Training</li>
+<li>Auto Learning</li>
+<li>OKR Guide</li>
+<li>Blog</li>
+</ul>
+</div>
+<div>
+<ul class="footer-menu-heading">
+<li class="mb-4">Support</li>
+<li>OKR FAQ</li>
+<li>Channel FAQ</li>
+<li>Privacy Policy</li>
+<li>Terms & Conditions</li>
+<li>API doc</li>
+<li>Security</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</footer>
+</body>
+</html>
